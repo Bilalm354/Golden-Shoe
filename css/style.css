@@ -341,12 +341,13 @@ a:hover {
  */
 .product-btn{
     padding: 0.6em 1em;
-    margin: 0.3em auto;
+    margin: 0.4em auto;
     background: #923126;
     width: 20em;
     color: white;
     font-weight: bold;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
+    border: 3px solid black;
 }
 .text-center{
     text-align: center;
