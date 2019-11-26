@@ -5,35 +5,11 @@
     <title>Golden Shoe</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b44c0c8a06.js" crossorigin="anonymous"></script>
 </head>
 
 <header>
 
-    <div class="container-logo-search">
-        <div>
-            <a href="#">
-                <img class="link" src="img/logo.png" alt="" width="148" height="43">
-            </a>
-        </div>
- 
-        <div class="search">
-
-            <form action="#" method="get">
-                <span class="fa fa-search"></span>
-                <label for="search"></label>
-                <input class="inline" id="search" type="text" name="q" value="" placeholder="Search entire store here..." maxlength="128" autocomplete="off">
-            </form>
-        </div>
-
-        <div class="search-mobile">
-
-            <form action="#" method="get">
-                <label for="search"></label>
-                <input class="inline" id="search" type="text" name="q" value="" placeholder="" maxlength="128" autocomplete="off">
-                <span class="fa fa-search"></span>
-            </form>
-        </div>
-    </div>
 
     <div class="container-navbar">
         <div class="container-inside">
@@ -48,19 +24,28 @@
                             <a class="current" href="#">Home</a>
                         </li>
                         <li>
-                            <a href="productPage.html">Products</a>
+                            <a href="productPage.html">Men</a>
                         </li>
                         <li>
-                            <a href="#">My Account</a>
+                            <a href="productPage.html">Women</a>
                         </li>
                         <li>
                             <a href="#">About</a> 
                         </li>
                         <li>
-                            <a href="#">FAQs</a>
+                            <a href="FAQ.html">FAQs</a>
                         </li>
                         <li>
                             <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">My Account</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-shopping-basket fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-search fa-lg"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -68,7 +53,13 @@
         </div>
     </div>
 </header>
-
+<div class="container-logo-search">
+        <div>
+            <a href="#">
+                <img class="link" src="img/logo.jpeg" alt="">
+            </a>
+        </div>
+    </div>
 <body>
     <div class="grid-container">
         <div class="row-2">
@@ -76,9 +67,14 @@
                 <img src="img/3.jpg" alt="" />
             </a>
         </div>
+        <div class="row-2">
+                <a href="#">
+                    <img src="img/email-banner.jpg" alt="" />
+                </a>
+            </div>
         <div class="row-1">
             <a href="#">
-                <img src="img/1.jpg" alt="" />
+                <img src="img/2.jpg" alt="" />
             </a>
         </div>
         <div class="row-1">
@@ -86,6 +82,11 @@
                 <img src="img/2.jpg" alt="" />
             </a>
         </div>
+        <div class="row-2">
+                <a href="#">
+                    <img src="img/delivery-banner.jpeg" alt="" />
+                </a>
+            </div>
         <div class="row-3">
             <a href="#">
                 <img src="img/4.jpg" alt="" />
@@ -103,6 +104,19 @@
         </div>
     </div>
 
+    <div class="email-form">
+        <h2>Sign up to our email list and get 10% off your first order!</h2><br>
+
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br><br>
+        <input type="submit" value="Send">
+        </form>
+    </div>
+
+
 </body>
 
 <footer>
@@ -111,17 +125,15 @@
             <div class="footer-left footer-links">
                 <ul>
                     <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Who We Are</a></li>
-                    <li><a href="#">Blog</a></li><br><br><br>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Frequently Asked Questions</a></li>
                 </ul>
             </div>
             <div class="footer-right footer-links">
                 <ul>
-                    <li><a href="#">Newsletter</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Competitions</a></li>
-                    <li><a href="#">Refer A Friend Scheme</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Find a Store</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
                 </ul>
             </div>
         </div>
@@ -129,13 +141,11 @@
         <div class="mobile-footer">
             <ul>
                 <li><a href="#" class="line-under">Contact us</a></li>
-                <li><a href="#" class="line-under">Who We Are</a></li>
-                <li><a href="#" class="line-under">Blog</a></li>
-                <li><a href="#" class="line-under">Terms & Conditions</a></li>
-                <li><a href="#" class="line-under">Newsletter</a></li>
-                <li><a href="#" class="line-under">Privacy Policy</a></li>
-                <li><a href="#" class="line-under">Competitions</a></li>
-                <li><a href="#">Refer A Friend Scheme</a></li>
+                <li><a href="#" class="line-under">About</a></li>
+                <li><a href="#" class="line-under">Frequently Asked Questions</a></li>
+                <li><a href="#" class="line-under">Returns</a></li>
+                <li><a href="#" class="line-under">Find a Store</a></li>
+                <li><a href="#" class="line-under">Terms and Conditions</a></li>
             </ul>
         </div>
 

@@ -46,16 +46,17 @@
  */
  .container-logo-search {
      max-width: 70%;
-     display: flex;
-     justify-content: space-between;
-     margin: 1.5em auto;
- 
+     margin: 1em auto;
+     margin-top: 4em;
  }
  
  
  .container-navbar {
      background: #923126;
-     margin-bottom: 3em;
+     margin-bottom: 1em;
+     position: fixed;
+     top: 0;
+     width: 100%;
  }
  
  .container-inside {
@@ -173,12 +174,10 @@
  Navigation
  ==========
  */
- nav {}
- 
  nav ul {
      list-style: none;
      display: flex;
- 
+    justify-content: space-around;
  }
  
  nav a {
@@ -192,7 +191,7 @@
  }
  
  nav a:hover {
-     color: #333333;
+     color: lightcoral;
      border-bottom: 3px solid #ffffff;
  
  }
@@ -230,6 +229,18 @@
      line-height: 1.5em;
  }
  
+ /* 
+ ==========
+ Email Form 
+ ==========
+ */
+.email-form{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+
  /* 
  ==========
  Footer 
